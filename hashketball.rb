@@ -335,7 +335,7 @@ end
 end
 end
 end
-
+binding.pry
 player_stats
 end   
 
