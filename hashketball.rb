@@ -350,7 +350,7 @@ end
         sv.each do  |tk|
           
        tk.each do |fok,fov| 
-         if == 
+         if fok == :
            end
        end
     end
