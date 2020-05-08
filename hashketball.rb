@@ -351,7 +351,13 @@ end
           
        tk.each do |fok,fov| 
          
-         
+           end
+       end
+    end
+   end
+  end
+end
+       
          
          
          
