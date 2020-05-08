@@ -351,6 +351,7 @@ end
           
        tk.each do |fok,fov| 
          if fok == :shoe
+           
            new_arry << fov
            
            end
@@ -359,6 +360,7 @@ end
    end
   end
 end
+return new_arry
 end       
          
          
