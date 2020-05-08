@@ -379,9 +379,9 @@ max_shoesize = new_arry.max
          end
        end
    end 
- end
+    end
  
-end         
+   end         
 end
 end
 end
