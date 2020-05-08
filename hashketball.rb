@@ -273,49 +273,49 @@ if team_name == "Brooklyn Nets"
  end
 end  
 
-def player_stats(name)
-  new_hash = {}  
-  new_arry = []
-     game_hash.each do |fk,fv|
-     fv.each do |sk,sv|
-    # binding.pry
-    if sk == :players 
+# def player_stats(name)
+#   new_hash = {}  
+#   new_arry = []
+#     game_hash.each do |fk,fv|
+#     fv.each do |sk,sv|
+#     # binding.pry
+#     if sk == :players 
                      
-        sv.each do  |tk|
+#         sv.each do  |tk|
           
-       tk.each do |fok,fov|
-        # binding.pry
-        if fok == :player_name
+#       tk.each do |fok,fov|
+#         # binding.pry
+#         if fok == :player_name
            
-          if fov == name
+#           if fov == name
            
-           #fv.each do |sk,sv| 
+#           #fv.each do |sk,sv| 
                
-         #sv.each do  |tk|  
+#         #sv.each do  |tk|  
            
-          #tk.each do |fk,fv|
-          tk.each do |fok,fov|
+#           #tk.each do |fk,fv|
+#           tk.each do |fok,fov|
          
-            new_hash = sv
+#             new_hash = sv
            
-         # binding.pry 
+#         # binding.pry 
           
-       # end
+#       # end
               
-        end    
-       end    
-        end
-     end
-     #return new_hash
-  end
- end
- end
+#         end    
+#       end    
+#         end
+#     end
+#     #return new_hash
+#   end
+# end
+# end
  
-end
-#new_arry << new_hash
+# end
+# #new_arry << new_hash
 
-#return  new_hash
+# #return  new_hash
 
-end  
+# end  
   
   
