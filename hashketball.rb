@@ -319,5 +319,13 @@ end
 # end  
  def player_stats(name)
    player_stats ={}
-   
+   game_hash.each do |fk,fv|
+    fv.each do |sk,sv|
+      
+      
+      
+      
+      
+      
+      
   
