@@ -342,7 +342,7 @@ end
      
  def  big_shoe_rebounds 
    
-  
+   new_arry = []
    game_hash.each do |fk,fv|
     fv.each do |sk,sv|
     if sk == :players 
@@ -351,7 +351,7 @@ end
           
        tk.each do |fok,fov| 
          if fok == :shoe
-           x = fov
+           new_arry << fov
            
            end
        end
@@ -359,7 +359,7 @@ end
    end
   end
 end
-       
+end       
          
          
          
