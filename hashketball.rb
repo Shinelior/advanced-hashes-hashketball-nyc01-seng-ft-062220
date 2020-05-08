@@ -327,7 +327,7 @@ end
           
        tk.each do |fok,fov| 
          if fov == name
-        player_stats << tk   
+        player_stats = tk   
       binding.pry
    end
     end
