@@ -326,8 +326,16 @@ end
         sv.each do  |tk|
           
        tk.each do |fok,fov|  
-      
-      
+      binding.pry
+   end
+    end
+  end
+end
+end
+end
+   
+ end
+     
       
       
       
