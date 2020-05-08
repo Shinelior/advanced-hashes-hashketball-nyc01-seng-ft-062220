@@ -369,7 +369,9 @@ max_shoesize = new_arry.max
           
        tk.each do |fok,fov| 
          if fok == :shoe 
-         if  fov == 
+         if  fov == max_shoesize
+           
+           
         
          end
        end
