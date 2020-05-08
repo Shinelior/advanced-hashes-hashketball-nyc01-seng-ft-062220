@@ -360,7 +360,8 @@ end
    end
   end
 end
- new_arry.max
+max_shoesize = new_arry.max
+ 
  tk.each do |fok,fov| 
          if fok == :rebounds
            return fov
