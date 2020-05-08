@@ -350,7 +350,9 @@ end
         sv.each do  |tk|
           
        tk.each do |fok,fov| 
-         if fok == :
+         if fok == :shoe
+           x = fov
+           
            end
        end
     end
