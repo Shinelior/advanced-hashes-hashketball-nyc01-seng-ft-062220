@@ -362,7 +362,10 @@ end
 end
  new_arry.max
  tk.each do |fok,fov| 
-         if fok == :shoe
+         if fok == :rebounds
+           return fov
+         end
+       end
 end       
          
          
