@@ -360,7 +360,7 @@ end
    end
   end
 end
-return new_arry
+return new_arry.max
 end       
          
          
