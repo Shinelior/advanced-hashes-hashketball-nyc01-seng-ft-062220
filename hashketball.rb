@@ -340,8 +340,22 @@ return player_stats
 end   
 
      
- def  big_shoe_rebounds    
-      
+ def  big_shoe_rebounds 
+   
+  
+   game_hash.each do |fk,fv|
+    fv.each do |sk,sv|
+    if sk == :players 
+                     
+        sv.each do  |tk|
+          
+       tk.each do |fok,fov| 
+         
+         
+         
+         
+         
+         
       
       
   
