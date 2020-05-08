@@ -361,15 +361,18 @@ end
   end
 end
 max_shoesize = new_arry.max
-  sv.each do  |tk|
+  game_hash.each do |fk,fv|
+    fv.each do |sk,sv|
+    if sk == :players 
+                     
+        sv.each do  |tk|
           
        tk.each do |fok,fov| 
- 
-         if fok == :rebounds
-           return fov
+         if fok == :shoe
+        
          end
        end
-end       
+   end       
 end         
          
          
