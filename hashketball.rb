@@ -325,7 +325,9 @@ end
                      
         sv.each do  |tk|
           
-       tk.each do |fok,fov|  
+       tk.each do |fok,fov| 
+         if fov == name
+           
       binding.pry
    end
     end
