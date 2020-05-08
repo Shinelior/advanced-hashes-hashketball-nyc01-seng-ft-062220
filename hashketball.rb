@@ -321,7 +321,11 @@ end
    player_stats ={}
    game_hash.each do |fk,fv|
     fv.each do |sk,sv|
-      
+    if sk == :players 
+                     
+        sv.each do  |tk|
+          
+       tk.each do |fok,fov|  
       
       
       
