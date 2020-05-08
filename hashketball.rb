@@ -335,8 +335,8 @@ end
 end
 end
 end
-binding.pry
-player_stats
+#binding.pry
+return player_stats
 end   
 
      
